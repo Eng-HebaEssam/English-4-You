@@ -1,0 +1,174 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: Cairo;
+}
+.sectionlogin{direction: rtl;}
+.sectionlogin .col-md-4{
+    background: url('../img/language-center-online-communication-courses-flat-advertising-composition-with-flag-diploma-tablet-big-ben-dictionaries_1284-32184.jpg') center center;
+    background-repeat: no-repeat;
+    background-size:initial;
+    min-height: 880px;
+    padding: 0;
+}
+@media (max-width: 786px) {
+    .sectionlogin .col-md-4 {
+        min-height: 90px;
+        background: none;
+    }
+}
+.sectionlogin .col-md-4 .second{
+    background: rgba(101, 153, 135, 0.5);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, rgba(244, 121, 31, 0.5), rgba(101, 153, 135, 0.5));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, rgba(244, 121, 31, 0.5), rgba(101, 153, 135, 0.5)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+    height: 100%;
+    padding: 65% 19% 0;
+    font-size: 82px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .sectionlogin .col-md-4 .second {
+        padding: 5% 5% 0;
+        background: none;
+    }
+}
+.sectionlogin .col-md-8 .main{
+    padding: 16% 17% 0;
+    text-align: right;
+}
+.sectionlogin .col-md-8 .main h1 {
+    font-size: 43px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #222831;
+    text-align: right;
+}
+.sectionlogin .col-md-8 .main h4 a{
+    text-decoration: none;
+    color: #ef6603;
+    margin-right: 10px;
+}
+input, textarea {
+    display: block;
+    margin: 0 0 32px 0;
+    height: 50px;
+    border: 0;
+    border-bottom: 1px solid #827f7fd9;
+}
+input{width: 83%;}
+textarea{width: 92%; min-height: 120px;}
+@media (max-width: 768px) {
+    textarea{width: 84%;}
+}
+select {
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+.sectionlogin .col-md-8 .main select{
+    margin: 32px 0;
+    width: 83%;
+    height: 50px;
+    border: 0;
+    border-bottom: 1px solid #827f7fd9;
+}
+input:focus , .sectionlogin .col-md-8 .main select:focus, textarea:focus{
+    outline: none !important;
+}
+input:focus::placeholder, textarea:focus::placeholder {
+    font-size: 12px;
+    position: relative;
+    top: -20px;
+    transition: 0.25s ease-in-out;
+}
+textarea:focus::placeholder {
+    font-size: 12px;
+    position: relative;
+    top: -5px;
+    transition: 0.25s ease-in-out;
+}
+button {
+    margin-bottom: 27px;
+    background-color: #ef6603;
+    border: 0;
+    padding: 14px;
+    color: #fff;
+    border: 2px solid #ef6603;
+}
+button:hover {
+    color: #ef6603;
+    background-color: #fff;
+    border: 2px solid;
+    transition: 0.5s ease-in-out;
+}
+.sectionlogin .col-md-8 .main .social a{
+    padding: 10px;
+    width: 150px;
+    display: inline-block;
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 6px;
+}
+
+.sectionlogin .col-md-8 .main .social a:hover{opacity: 0.8;}
+.face{background-color: #4267B2;}
+.whats{background-color: #128C7E;}
+.show_item{display: none;}
+.second_v{padding: 9% 17% 5% !important;}
+@media (max-width: 768px) {
+    .second_v {
+        padding: 9% 4% 5% !important;
+    }
+    .sectionlogin .col-md-8 .main .social a{
+        margin-left: 0px;
+    }
+}
+.asterisk {
+    float: left;
+    position: relative;
+    left: 18%;
+    top: 18px;
+    color: #f00;
+    font-size: 22px;
+    font-weight: bold;
+}
+.main_btn{
+    width: 130px;
+    float: right;
+}
+.main_col{padding: 30px 60px 30px 0;}
+.main_col .asterisk{top: 43px;}
+.section_main{
+    background: url("../images/businesswoman-working-office-with-smile-while-sitting.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.section_main .main{
+    padding: 100px 0;
+    background: rgba(0, 153, 247, 0.5);
+    background: -webkit-linear-gradient(to right, rgba(241, 23, 18, 0.5), rgba(0, 153, 247, 0.5));
+    background: linear-gradient(to right, rgba(241, 23, 18, 0.5), rgba(0, 153, 247, 0.5));
+    text-align: center;
+    color: #fff;
+    font-size: 65px !important;
+}
+.second_error{
+    text-align: center !important;
+    margin-top: 6%;
+}
+.second_error h1 {font-size: 67px !important; color: #ef6603 !important;} 
+.second_error button{
+    width: 150px;
+    margin-top: 14px;
+}
+.second_error button a{color: #fff; text-decoration: none;}
+button:hover a{
+    color: #ef6603;
+}
